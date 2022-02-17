@@ -659,6 +659,9 @@ body::-webkit-scrollbar {
     left: 0;
     z-index: -99999;
 }
+.nav-pills .nav-link.active{
+    margin: 0 auto;
+}
 @media (max-width:767px){
     .nav{
         display: grid!important;
@@ -666,7 +669,13 @@ body::-webkit-scrollbar {
         width: 100%;
         right: 0;
         top: 100px;
-        background: rgba(0, 0, 0, 0.164)!important;
+        background: #000000de!important;
+    }
+    .nav-pills .nav-link.active{
+        margin: 0 auto;
+    }
+    #home h1{
+        font-size: 42px;
     }
     #hamburger{
         display: block;
@@ -686,5 +695,8 @@ body::-webkit-scrollbar {
     }
     .card{
         margin-right: 0;
+    }
+    .ball8{
+        left: 0;
     }
 }
