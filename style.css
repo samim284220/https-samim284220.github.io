@@ -674,6 +674,9 @@ body::-webkit-scrollbar {
     .nav-pills .nav-link.active{
         margin: 0 auto;
     }
+    .nav-link{
+        margin-left: 0;
+    }
     #home h1{
         font-size: 42px;
     }
