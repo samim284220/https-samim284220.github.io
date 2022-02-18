@@ -626,9 +626,6 @@ body::-webkit-scrollbar {
     transform: translateY(10px) rotate(0deg);
     transition:0.3s;
 }
-#hamburger:checked + ul{
-    display: none!important;
-}
 #submit-page{
     display: flex;
     align-items: center;
@@ -670,6 +667,9 @@ body::-webkit-scrollbar {
         right: 0;
         top: 100px;
         background: #000000de!important;
+    }
+    #hamburger:checked + ul{
+        display: none!important;
     }
     .nav-pills .nav-link.active{
         margin: 0 auto;
