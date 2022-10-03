@@ -474,8 +474,8 @@ body::-webkit-scrollbar {
     margin-right: 59px;
     margin-bottom: 10px;
 }
-.card:last-of-type{
-    margin-right: 0px;
+.last-card{
+    margin-right: 0;
 }
 .card-img{
     position: relative;
@@ -658,6 +658,14 @@ body::-webkit-scrollbar {
 }
 .nav-pills .nav-link.active{
     margin: 0 auto;
+}
+@media (max-width: 1199px) and (min-width: 990px) {
+    .last-card{
+        margin-right: 59px;
+    }
+    .s-margin{
+        margin-right: 0;
+    }
 }
 @media (max-width:767px){
     .nav{
