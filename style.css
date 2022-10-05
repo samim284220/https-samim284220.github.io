@@ -318,11 +318,11 @@ body::-webkit-scrollbar {
 }
 .header{
     background: rgba(0, 0, 0, 0.164)!important;
-    height: 100px;
+    height: auto;
     backdrop-filter: blur(10px);
 }
 .logo{
-    width: 50px;
+    width: 45px;
     transition: 1s;
 }
 .logo:hover{
@@ -391,7 +391,7 @@ body::-webkit-scrollbar {
     margin-top: 3em;
 }
 #home h1{
-    font-size:7.5vmax;
+    font-size:75px;
 }
 .social-media{
     padding: 0px;
